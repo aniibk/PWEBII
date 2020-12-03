@@ -83,9 +83,11 @@ require_once('encabezado.php');
             <?php
                 function insert(){
                     echo 'Se agrega al carrito';
-                }
+                } 
 
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                if ($_SERVER["REQUEST_METHOD"] == "POST") { 
+
+               
                     array_push($a_carrito, array(
                         'id_producto' => $pr_id,
                         'id_categoria' => $pr_id_categoria,
@@ -99,6 +101,7 @@ require_once('encabezado.php');
                     ));
                     file_put_contents('carrito.json', json_encode($a_carrito));
                 }
+        
             ?>
 
 
