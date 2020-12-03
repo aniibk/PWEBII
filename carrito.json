@@ -1,0 +1,34 @@
+{
+    "1": {
+        "id_producto": "1",
+        "id_categoria": "1",
+        "id_marca": "1",
+        "nombre_producto": "SKIN LONG-WEAR WEIGHTLESS FOUNDATION SPF 15",
+        "precio": "49.00",
+        "descripcion": "Experimente un mate que hace mas.",
+        "nombre_marca": "Bobbi Brown",
+        "nombre_categoria": "Base"
+    },
+    "2": {
+        "id_producto": null,
+        "id_categoria": null,
+        "id_marca": null,
+        "nombre_producto": null,
+        "precio": null,
+        "nombre_marca": null,
+        "nombre_categoria": null,
+        "cant": "0",
+        "estado": "pendiente"
+    },
+    "3": {
+        "id_producto": null,
+        "id_categoria": null,
+        "id_marca": null,
+        "nombre_producto": null,
+        "precio": null,
+        "nombre_marca": null,
+        "nombre_categoria": null,
+        "cant": "0",
+        "estado": "pendiente"
+    }
+}
